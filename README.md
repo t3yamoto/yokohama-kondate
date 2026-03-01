@@ -1,6 +1,6 @@
 # yokohama-kondate
 
-横浜市学校給食の献立PDF（https://ygs.or.jp/iframe/pdf/E_new.pdf）をパースし、CSVおよびカレンダー形式のPDFを生成するツール。
+横浜市学校給食の[献立PDF](https://ygs.or.jp/iframe/pdf/E_new.pdf)をパースし、CSVおよびカレンダー形式のPDFを生成するツール。
 
 ## 機能
 
