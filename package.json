@@ -1,0 +1,25 @@
+{
+  "name": "yokohama-kondate",
+  "version": "1.0.0",
+  "description": "横浜市給食献立PDF処理システム",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "parse": "ts-node src/index.ts --parse-only",
+    "generate-csv": "ts-node src/index.ts --csv-only",
+    "generate-pdf": "ts-node src/index.ts --pdf-only"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "csv-stringify": "^6.4.0",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pdf-parse": "^1.1.5",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
